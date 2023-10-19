@@ -9,8 +9,8 @@ namespace FileHandlingDemo
         static void Main(string[] args)
         {
             //createFileandWrite();
-            //bool ans=File.Exists(@"D:\\NewDrive\\MphasisSept\\file3.txt");
-            //if (ans) {
+            bool ans=File.Exists(@"D:\\NewDrive\\MphasisSept\\file3.txt");
+            if (ans) {
                 FileStream fs = null;
                 try
                 {
@@ -48,11 +48,11 @@ namespace FileHandlingDemo
                 }
 
             }
-            //else
-            //{
-              //  Console.WriteLine(  "File doesn't exists");
+            else
+            {
+               Console.WriteLine(  "File doesn't exists");
 
-            //}
+            }
             
            
              
